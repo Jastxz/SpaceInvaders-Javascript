@@ -1,0 +1,77 @@
+/* 
+Nombre y apellidos: Javier Gil Blázquez
+Uvus: javgilbla 
+Referencias: 
+  -https://www.youtube.com/watch?v=kSt2_YZzCec&feature=youtu.be
+  -https://www.youtube.com/watch?v=MU4psw3ccUI(vídeo para referenciarme más correctamente sobre el juego)
+  -https://grid.layoutit.com
+*/
+
+body {
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 600px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.espacio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    border: white solid 1px;
+    grid-template-areas:
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .";
+}
+
+.espacio div{
+    width: 40px;
+    height: 40px;
+}
+
+.jugador{
+    background-image: url("Imágenes/baseshipb.png");
+}
+
+.enemigo{
+    background-image: url("Imágenes/saucer1b.png");
+    border-radius: 10px;
+}
+
+.explosion{
+    background-image: url("Imágenes/explosion.png");
+}
+
+.disparo{
+    background-image: url("Imágenes/shoot.png");
+}
+
+.proteccion{
+    background-color: green;
+}
+
+h3 {
+    color: white;
+    height: 10px;
+}
+
+span {
+    color: white;
+}
